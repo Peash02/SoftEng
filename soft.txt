@@ -1,0 +1,194 @@
+Discord was founded in 2015 by
+
+Jason Citron
+Stanislav Vishnevskiy
+
+Jason and his friends loved playing multiplayer games.
+
+During gameplay they used communication software like:
+
+Skype
+TeamSpeak Systems GmbH
+Mumble
+
+They noticed many problems.
+
+Originally, Hammer & Chisel was making a multiplayer online game called Fates Forever.
+
+While testing the game, they kept struggling to communicate.
+
+They realized:
+
+"The communication tool is more useful than the game."
+
+So they shifted their focus.
+
+Instead of building games...
+
+they built the communication platform.
+
+This is a classic example of a startup pivot.
+
+Company founded: 2012 (Hammer & Chisel)
+Discord development started: 2014
+Public launch: May 2015
+
+Discord is interesting because it handles real-time communication at massive scale.
+
+Frontend
+
+Desktop app
+
+Built using Electron (web technologies packaged as a desktop app)
+
+Web app
+
+HTML
+CSS
+JavaScript
+React
+
+Mobile
+
+Native apps (the implementation has evolved over time as the mobile apps matured)
+Backend
+
+Programming languages used include:
+
+Elixir (for highly concurrent real-time services)
+Rust (performance-critical components)
+Go
+Python
+JavaScript/TypeScript (for various services and tooling)
+
+Discord has evolved into a large microservices architecture, so different services use different languages.
+
+Databases
+
+Discord has publicly discussed using technologies such as:
+
+Apache Cassandra
+Redis
+PostgreSQL
+
+Each serves different purposes (persistent storage, caching, relational data).
+
+Communication
+
+Discord relies on:
+
+WebSockets for real-time messaging
+UDP-based voice transport with encryption
+HTTP/HTTPS APIs for standard requests
+
+Messages appear almost instantly because clients maintain persistent connections.
+
+Architecture
+
+Discord uses:
+
+Cloud infrastructure
+Load balancers
+Microservices
+Distributed databases
+Caching
+Content delivery networks (CDNs)
+
+This enables support for millions of simultaneous users.
+
+9. Challenges During Development
+1. Low Latency Voice
+Needed real-time communication.
+Optimized networking.
+Reduced delay.
+2. Scalability
+Millions of users joining simultaneously.
+Built distributed infrastructure.
+Used cloud computing.
+3. Database Scaling
+Billions of messages stored.
+Implemented distributed databases.
+Optimized data partitioning.
+4. Reliability
+Needed 24/7 availability.
+Added redundancy.
+Built failover systems.
+Continuous monitoring.
+5. Security
+End-to-end secure connections.
+Authentication systems.
+Encryption.
+DDoS protection.
+6. Spam Prevention
+Verification systems.
+Auto Moderation.
+Rate limiting.
+Anti-spam detection.
+7. Large Communities
+Managed servers with hundreds of thousands of members.
+Optimized permission systems.
+Efficient message synchronization.
+8. Cross-Platform Compatibility
+Same experience on:
+Windows
+macOS
+Linux
+Android
+iPhone
+Web browsers
+12. Interesting Facts
+Originally built for gamers.
+Started because the founders couldn't find good voice chat software.
+Pivoted from game development to communication software.
+Used by schools, companies, developers, and creators worldwide.
+Supports communities ranging from small friend groups to massive public servers.
+
+5. History Timeline
+2012
+Hammer & Chisel founded.
+Goal: Develop multiplayer games.
+2013
+Development of Fates Forever began.
+2014
+Team started building Discord.
+Internal testing started.
+2015
+Discord officially launched.
+Core features:
+Voice chat
+Text chat
+Direct messaging
+2016
+Rapid adoption by gaming communities.
+Popular among esports teams.
+2017
+Introduced:
+Video calling
+Screen sharing
+2018
+Introduced:
+Go Live streaming
+Bot improvements
+Developer APIs
+2019
+Introduced:
+Server Boosts
+Better customization
+2020
+COVID-19 increased demand.
+Used for:
+Online classes
+Remote work
+Study groups
+Family communication
+2021
+Rejected acquisition discussions with Microsoft.
+Continued as an independent company.
+2022–Present
+Added:
+Forums
+Activities
+Soundboard
+Auto Moderation
+Better mobile apps
+Enhanced developer platform
